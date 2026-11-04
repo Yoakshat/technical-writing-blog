@@ -1,0 +1,15 @@
+title: Akshat's Blog
+baseurl: "/technical-writing-blog"
+url: "https://yoakshat.github.io"
+
+collections:
+  articles:
+    output: true
+    permalink: /posts/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: post

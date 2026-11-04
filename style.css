@@ -6,4 +6,8 @@ a{color:#0b5fff}
 .posts li{display:flex;justify-content:space-between;gap:1rem;padding:.5rem 0;border-bottom:1px solid #eee}
 @media(prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#7aa7ff}.posts li{border-color:#333}}
 img{max-width:100%;height:auto;border-radius:8px}
-.caption{margin-top:1rem}
+figure{margin:2rem 0}
+figcaption{margin-top:.75rem;color:#777;font-size:.9rem}
+.back{display:inline-block;margin-bottom:1.5rem;color:#777;text-decoration:none}
+.back:hover{color:#222}
+@media(prefers-color-scheme:dark){.back:hover{color:#eee}}

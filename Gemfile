@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+gem "jekyll"
+gem "csv"
+gem "bigdecimal"
+gem "base64"
+gem "kramdown-parser-gfm"
+gem "webrick"
